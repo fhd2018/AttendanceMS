@@ -3,4 +3,3 @@ services:
     name: attendancems
     env: docker
     plan: free
-    rootDir: AttendanceMS-Server
