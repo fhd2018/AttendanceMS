@@ -2,6 +2,7 @@ services:
   - type: web
     name: attendancems
     env: php
+    rootDir: AttendanceMS-Server
     buildCommand: |
       composer install --no-interaction --prefer-dist --optimize-autoloader
       php artisan key:generate
