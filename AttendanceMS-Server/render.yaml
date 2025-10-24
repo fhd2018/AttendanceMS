@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: attendancems
+    env: docker
+    plan: free
